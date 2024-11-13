@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
   "dependencies": {
-    "@puzzlet/promptdx": "^0.1.4"
+    "@puzzlet/promptdx": "^0.1.4",
+    "@puzzlet/templatedx": "^0.5.6",
+    "dotenv": "^16.4.5"
   }
 }

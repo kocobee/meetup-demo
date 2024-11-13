@@ -17,7 +17,7 @@
     js-yaml "^4.1.0"
     openai "^4.65.0"
 
-"@puzzlet/templatedx@^0.5.5":
+"@puzzlet/templatedx@^0.5.5", "@puzzlet/templatedx@^0.5.6":
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/@puzzlet/templatedx/-/templatedx-0.5.6.tgz#1dc6581148134e8e10f56d35aabc9b83e373f1ef"
   integrity sha512-AKh1HTSiCVuM+3/iqZ3r1MxMrVc05aZo30unlxxWeS420hYmdbmrOzuCdgOzTn53TlcNanF9DInFSjxDrwHiSQ==
@@ -247,6 +247,11 @@ devlop@^1.0.0, devlop@^1.1.0:
   integrity sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==
   dependencies:
     dequal "^2.0.0"
+
+dotenv@^16.4.5:
+  version "16.4.5"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
+  integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
 
 esast-util-from-estree@^2.0.0:
   version "2.0.0"
