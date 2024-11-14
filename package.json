@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "type": "module",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "webpack --config webpack.config.js --mode development && node dist/bundle.js"
   },
   "dependencies": {
     "@puzzlet/promptdx": "^0.1.5",
     "@puzzlet/templatedx": "^0.5.7",
     "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }
