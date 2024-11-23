@@ -7,8 +7,7 @@
     "start": "webpack --config webpack.config.js --mode development && node dist/bundle.js"
   },
   "dependencies": {
-    "@puzzlet/promptdx": "^0.1.5",
-    "@puzzlet/templatedx": "^0.5.7",
+    "@puzzlet/promptdx": "^1.1.0",
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
